@@ -108,11 +108,12 @@ h3 {
   text-align: left;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 576px) {
   body {
     text-align: center;
   }
-  img {
+
+  .home-image {
     display: none;
   }
   h1 {
