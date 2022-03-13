@@ -103,3 +103,36 @@ h3 {
 .app-copy {
   font-size: 18px;
 }
+
+#app-title {
+  text-align: left;
+}
+
+@media (max-width: 450px) {
+  body {
+    text-align: center;
+  }
+  img {
+    display: none;
+  }
+  h1 {
+    font-size: 36px;
+  }
+  h2 {
+    text-align: center;
+    font-size: 28px;
+  }
+  h3 {
+    font-size: 22px;
+  }
+  #app-title {
+    text-align: center;
+  }
+  .email-link {
+    font-size: 22px;
+  }
+
+  .navbar {
+    padding: 10px;
+  }
+}
